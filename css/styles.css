@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@font-face {
+    font-family: Joe;
+    src: url(../fonts/Slim-Joe.otf);
+}
+
+@font-face {
+    font-family: John;
+    src: url(../fonts/Big-John.otf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+
+html,
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#title-page {
+    color: #3772ff;
+    width: 100vw;
+    padding-top: 35vh;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 50px;
+    font-family: Avenir, sans-serif;
+    letter-spacing: 2px;
+}
+
+#title-page p {
+    font-family: Lato;
+}
